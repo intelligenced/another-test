@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+The content of the document......
+<input type="file" name="file" id="file">
+<script>
+function Display(variable){
+var matches = variable;
+	if(matches){
+		for( var match = 0; match < matches.length; match++){
+			    var submatch = matches[match];
+
+		}
+   		console.log(submatch)
+   		}
+
+}
+
+
+document.getElementById('file').onchange = function(){
+
+  var file = this.files[0];
+
+  var reader = new FileReader();
+  reader.onload = function(progressEvent){
+    // Entire file
+    //console.log(this.result);
+
+    // By lines
+    var lines = this.result.split('\n');
+    console.log(lines)
+    for(var line = 0; line < lines.length; line++){
+     // var matches = lines[line].match(/\from[(.*?)\]/);
+           // var matches = lines[line].match(/\[(.*?)\]/);
+
+           var from = lines[line].match(/\[from: [0-9]*\]/);
+            var to = lines[line].match(/\[to: [0-9]*\]/);
+           // console.log(matches);
+           Display(from)
+           Display(to)
+
+/*
+	if (matches) {
+
+		for( var match = 0; match < matches.length; match++){
+			    var submatch = matches[match];
+
+		}
+   		console.log(submatch)
+
+
+
+
+
+		}*/
+    }
+  };
+  reader.readAsText(file);
+};
+</script>
+</body>
+
+</html>
