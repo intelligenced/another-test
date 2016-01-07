@@ -1,0 +1,154 @@
+2014-06-07 23:58:01 [17261] [65] DEBUG: Thread 65 (opensmppbox.c:function) terminates.
+2014-06-07 23:58:01 [17261] [67] ERROR: Connection closed by the bearerbox.
+2014-06-07 23:58:02 [17261] [68] DEBUG: Thread 68 (opensmppbox.c:smpp_to_bearerbox) terminates.
+2014-06-07 23:58:02 [17261] [67] DEBUG: Thread 67 (opensmppbox.c:function) terminates.
+2014-06-07 23:58:12 [17261] [0] DEBUG: Started thread 69 (opensmppbox.c:function)
+2014-06-07 23:58:12 [17261] [69] DEBUG: Thread 69 (opensmppbox.c:function) maps to pid 17261.
+2014-06-07 23:58:12 [17261] [69] INFO: Client connected from <172.xxx.xxx.xxx>
+2014-06-07 23:58:12 [17261] [69] DEBUG: Connecting to <127.0.0.1>
+2014-06-07 23:58:12 [17261] [69] INFO: Connected to bearerbox at 127.0.0.1 port 13000.
+2014-06-07 23:58:12 [17261] [69] DEBUG: Started thread 70 (opensmppbox.c:smpp_to_bearerbox)
+2014-06-07 23:58:12 [17261] [70] DEBUG: Thread 70 (opensmppbox.c:smpp_to_bearerbox) maps to pid 17261.
+2014-06-07 23:58:12 [17261] [70] DEBUG: SMPP[smpp]: Got PDU:
+2014-06-07 23:58:12 [17261] [70] DEBUG: SMPP PDU 0x7fa5d4000910 dump:
+2014-06-07 23:58:12 [17261] [70] DEBUG:   type_name: bind_receiver
+2014-06-07 23:58:12 [17261] [70] DEBUG:   command_id: 1 = 0x00000001
+2014-06-07 23:58:12 [17261] [70] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:58:12 [17261] [70] DEBUG:   sequence_number: 399 = 0x0000018f
+2014-06-07 23:58:12 [17261] [70] DEBUG:   system_id: "username"
+2014-06-07 23:58:12 [17261] [70] DEBUG:   password: "password"
+2014-06-07 23:58:12 [17261] [70] DEBUG:   system_type: "default"
+2014-06-07 23:58:12 [17261] [70] DEBUG:   interface_version: 52 = 0x00000034
+2014-06-07 23:58:12 [17261] [70] DEBUG:   addr_ton: 0 = 0x00000000
+2014-06-07 23:58:12 [17261] [70] DEBUG:   addr_npi: 0 = 0x00000000
+2014-06-07 23:58:12 [17261] [70] DEBUG:   address_range: NULL
+2014-06-07 23:58:12 [17261] [70] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:58:12 [17261] [70] DEBUG: SMPP[username]: Sending PDU:
+2014-06-07 23:58:12 [17261] [70] DEBUG: SMPP PDU 0x7fa5d4001ad0 dump:
+2014-06-07 23:58:12 [17261] [70] DEBUG:   type_name: bind_receiver_resp
+2014-06-07 23:58:12 [17261] [70] DEBUG:   command_id: 2147483649 = 0x80000001
+2014-06-07 23:58:12 [17261] [70] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:58:12 [17261] [70] DEBUG:   sequence_number: 399 = 0x0000018f
+2014-06-07 23:58:12 [17261] [70] DEBUG:   system_id: "smpp"
+2014-06-07 23:58:12 [17261] [70] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:58:13 [17261] [0] DEBUG: Started thread 71 (opensmppbox.c:function)
+2014-06-07 23:58:13 [17261] [71] DEBUG: Thread 71 (opensmppbox.c:function) maps to pid 17261.
+2014-06-07 23:58:13 [17261] [71] INFO: Client connected from <172.xxx.xxx.xx>
+2014-06-07 23:58:13 [17261] [71] DEBUG: Connecting to <127.0.0.1>
+2014-06-07 23:58:13 [17261] [71] INFO: Connected to bearerbox at 127.0.0.1 port 13000.
+2014-06-07 23:58:13 [17261] [71] DEBUG: Started thread 72 (opensmppbox.c:smpp_to_bearerbox)
+2014-06-07 23:58:13 [17261] [72] DEBUG: Thread 72 (opensmppbox.c:smpp_to_bearerbox) maps to pid 17261.
+2014-06-07 23:58:13 [17261] [72] DEBUG: SMPP[smpp]: Got PDU:
+2014-06-07 23:58:13 [17261] [72] DEBUG: SMPP PDU 0x7fa5d00008c0 dump:
+2014-06-07 23:58:13 [17261] [72] DEBUG:   type_name: bind_transmitter
+2014-06-07 23:58:13 [17261] [72] DEBUG:   command_id: 2 = 0x00000002
+2014-06-07 23:58:13 [17261] [72] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:58:13 [17261] [72] DEBUG:   sequence_number: 400 = 0x00000190
+2014-06-07 23:58:13 [17261] [72] DEBUG:   system_id: "username"
+2014-06-07 23:58:13 [17261] [72] DEBUG:   password: "password"
+2014-06-07 23:58:13 [17261] [72] DEBUG:   system_type: "default"
+2014-06-07 23:58:13 [17261] [72] DEBUG:   interface_version: 52 = 0x00000034
+2014-06-07 23:58:13 [17261] [72] DEBUG:   addr_ton: 0 = 0x00000000
+2014-06-07 23:58:13 [17261] [72] DEBUG:   addr_npi: 0 = 0x00000000
+2014-06-07 23:58:13 [17261] [72] DEBUG:   address_range: NULL
+2014-06-07 23:58:13 [17261] [72] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:58:13 [17261] [72] DEBUG: SMPP[username]: Sending PDU:
+2014-06-07 23:58:13 [17261] [72] DEBUG: SMPP PDU 0x7fa5d00019d0 dump:
+2014-06-07 23:58:13 [17261] [72] DEBUG:   type_name: bind_transmitter_resp
+2014-06-07 23:58:13 [17261] [72] DEBUG:   command_id: 2147483650 = 0x80000002
+2014-06-07 23:58:13 [17261] [72] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:58:13 [17261] [72] DEBUG:   sequence_number: 400 = 0x00000190
+2014-06-07 23:58:13 [17261] [72] DEBUG:   system_id: "smpp"
+2014-06-07 23:58:13 [17261] [72] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:58:43 [17261] [72] DEBUG: SMPP[username]: Got PDU:
+2014-06-07 23:58:43 [17261] [72] DEBUG: SMPP PDU 0x7fa5d00008c0 dump:
+2014-06-07 23:58:43 [17261] [72] DEBUG:   type_name: enquire_link
+2014-06-07 23:58:43 [17261] [72] DEBUG:   command_id: 21 = 0x00000015
+2014-06-07 23:58:43 [17261] [72] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:58:43 [17261] [72] DEBUG:   sequence_number: 401 = 0x00000191
+2014-06-07 23:58:43 [17261] [72] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:58:43 [17261] [72] DEBUG: SMPP[username]: Sending PDU:
+2014-06-07 23:58:43 [17261] [72] DEBUG: SMPP PDU 0x7fa5d00019d0 dump:
+2014-06-07 23:58:43 [17261] [72] DEBUG:   type_name: enquire_link_resp
+2014-06-07 23:58:43 [17261] [72] DEBUG:   command_id: 2147483669 = 0x80000015
+2014-06-07 23:58:43 [17261] [72] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:58:43 [17261] [72] DEBUG:   sequence_number: 401 = 0x00000191
+2014-06-07 23:58:43 [17261] [72] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:58:43 [17261] [70] DEBUG: SMPP[branded]: Got PDU:
+2014-06-07 23:58:43 [17261] [70] DEBUG: SMPP PDU 0x7fa5d4000910 dump:
+2014-06-07 23:58:43 [17261] [70] DEBUG:   type_name: enquire_link
+2014-06-07 23:58:43 [17261] [70] DEBUG:   command_id: 21 = 0x00000015
+2014-06-07 23:58:43 [17261] [70] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:58:43 [17261] [70] DEBUG:   sequence_number: 402 = 0x00000192
+2014-06-07 23:58:43 [17261] [70] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:58:43 [17261] [70] DEBUG: SMPP[username]: Sending PDU:
+2014-06-07 23:58:43 [17261] [70] DEBUG: SMPP PDU 0x7fa5d4002b10 dump:
+2014-06-07 23:58:43 [17261] [70] DEBUG:   type_name: enquire_link_resp
+2014-06-07 23:58:43 [17261] [70] DEBUG:   command_id: 2147483669 = 0x80000015
+2014-06-07 23:58:43 [17261] [70] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:58:43 [17261] [70] DEBUG:   sequence_number: 402 = 0x00000192
+2014-06-07 23:58:43 [17261] [70] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:59:13 [17261] [72] DEBUG: SMPP[username]: Got PDU:
+2014-06-07 23:59:13 [17261] [72] DEBUG: SMPP PDU 0x7fa5d00008c0 dump:
+2014-06-07 23:59:13 [17261] [72] DEBUG:   type_name: enquire_link
+2014-06-07 23:59:13 [17261] [72] DEBUG:   command_id: 21 = 0x00000015
+2014-06-07 23:59:13 [17261] [69] ERROR: Connection closed by the bearerbox.
+2014-06-07 23:59:13 [17261] [70] DEBUG: Thread 70 (opensmppbox.c:smpp_to_bearerbox) terminates.
+2014-06-07 23:59:13 [17261] [71] ERROR: Connection closed by the bearerbox.
+2014-06-07 23:59:13 [17261] [69] DEBUG: Thread 69 (opensmppbox.c:function) terminates.
+2014-06-07 23:59:13 [17261] [72] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:59:13 [17261] [72] DEBUG:   sequence_number: 403 = 0x00000193
+2014-06-07 23:59:13 [17261] [72] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:59:13 [17261] [72] DEBUG: SMPP[username]: Sending PDU:
+2014-06-07 23:59:13 [17261] [72] DEBUG: SMPP PDU 0x7fa5d00019d0 dump:
+2014-06-07 23:59:13 [17261] [72] DEBUG:   type_name: enquire_link_resp
+2014-06-07 23:59:13 [17261] [72] DEBUG:   command_id: 2147483669 = 0x80000015
+2014-06-07 23:59:13 [17261] [72] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:59:13 [17261] [72] DEBUG:   sequence_number: 403 = 0x00000193
+2014-06-07 23:59:13 [17261] [72] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:59:13 [17261] [72] DEBUG: Thread 72 (opensmppbox.c:smpp_to_bearerbox) terminates.
+2014-06-07 23:59:13 [17261] [71] DEBUG: Thread 71 (opensmppbox.c:function) terminates.
+2014-06-07 23:59:24 [17261] [0] DEBUG: Started thread 73 (opensmppbox.c:function)
+2014-06-07 23:59:24 [17261] [73] DEBUG: Thread 73 (opensmppbox.c:function) maps to pid 17261.
+2014-06-07 23:59:24 [17261] [73] INFO: Client connected from <172.xxx.xxx.xxx>
+2014-06-07 23:59:24 [17261] [73] DEBUG: Connecting to <127.0.0.1>
+2014-06-07 23:59:24 [17261] [73] INFO: Connected to bearerbox at 127.0.0.1 port 13000.
+2014-06-07 23:59:24 [17261] [73] DEBUG: Started thread 74 (opensmppbox.c:smpp_to_bearerbox)
+2014-06-07 23:59:24 [17261] [74] DEBUG: Thread 74 (opensmppbox.c:smpp_to_bearerbox) maps to pid 17261.
+2014-06-07 23:59:24 [17261] [74] DEBUG: SMPP[smpp]: Got PDU:
+2014-06-07 23:59:24 [17261] [74] DEBUG: SMPP PDU 0x7fa5d00008c0 dump:
+2014-06-07 23:59:24 [17261] [74] DEBUG:   type_name: bind_receiver
+2014-06-07 23:59:24 [17261] [74] DEBUG:   command_id: 1 = 0x00000001
+2014-06-07 23:59:24 [17261] [74] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:59:24 [17261] [74] DEBUG:   sequence_number: 406 = 0x00000196
+2014-06-07 23:59:24 [17261] [74] DEBUG:   system_id: "username"
+2014-06-07 23:59:24 [17261] [74] DEBUG:   password: "password"
+2014-06-07 23:59:24 [17261] [74] DEBUG:   system_type: "default"
+2014-06-07 23:59:24 [17261] [74] DEBUG:   interface_version: 52 = 0x00000034
+2014-06-07 23:59:24 [17261] [74] DEBUG:   addr_ton: 0 = 0x00000000
+2014-06-07 23:59:24 [17261] [74] DEBUG:   addr_npi: 0 = 0x00000000
+2014-06-07 23:59:24 [17261] [74] DEBUG:   address_range: NULL
+2014-06-07 23:59:24 [17261] [74] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:59:24 [17261] [74] DEBUG: SMPP[username]: Sending PDU:
+2014-06-07 23:59:24 [17261] [74] DEBUG: SMPP PDU 0x7fa5d0001a20 dump:
+2014-06-07 23:59:24 [17261] [74] DEBUG:   type_name: bind_receiver_resp
+2014-06-07 23:59:24 [17261] [74] DEBUG:   command_id: 2147483649 = 0x80000001
+2014-06-07 23:59:24 [17261] [74] DEBUG:   command_status: 0 = 0x00000000
+2014-06-07 23:59:24 [17261] [74] DEBUG:   sequence_number: 406 = 0x00000196
+2014-06-07 23:59:24 [17261] [74] DEBUG:   system_id: "smpp"
+2014-06-07 23:59:24 [17261] [74] DEBUG: SMPP PDU dump ends.
+2014-06-07 23:59:25 [17261] [0] DEBUG: Started thread 75 (opensmppbox.c:function)
+2014-06-07 23:59:25 [17261] [75] DEBUG: Thread 75 (opensmppbox.c:function) maps to pid
+2011-03-19 14:38:48 Sent SMS [SMSC: smppf] [SVC: userf] [ACT:] [BINF: 18042] [FID: 1533151279] [from: 5221] [to: 393409007144] [flags: - 1:0: -1: -1:3] [test8]
+2011-03-19 14:38:48 Sent SMS [SMSC: smppf] [SVC: userf] [ACT:] [BINF: 18042] [FID: 3355996176] [from: 542123] [to: 393409007144] [flags: - 1:0: -1: -1:3] [test8]
+2011-03-19 14:38:48 Sent SMS [SMSC: smppf] [SVC: userf] [ACT:] [BINF: 18042] [FID: 3223118989] [from: 4444] [to: 393409007144] [flags: - 1:0: -1: -1:3] [test8]
+2011-03-19 14:38:48 Sent SMS [SMSC: smppf] [SVC: userf] [ACT:] [BINF: 18042] [FID: 3223118989] [from: 5555] [to: 393409007144] [flags: - 1:0: -1: -1:3] [test8 asdhv
+asdas
+as
+as
+as
+das
+d
+asd
+asd
+as]
